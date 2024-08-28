@@ -1,0 +1,89 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin-left: 20px;
+    color: #333;
+}
+
+p {
+    margin-left: 20px;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-left: 20px;
+    display: inline;
+    margin-right: 20px;
+}
+
+table {
+    margin-left: 20px;   
+}
+
+footer {
+    margin-left: 20px;
+    /* text-align: center; */
+    margin-top: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin-left: 20px;
+    /* margin: 0 auto; */
+}
+
+input:hover {
+    border-color: #007bff;
+    
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="color"],
+input[type="number"],
+input[type="month"],
+input[type="range"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.btn {
+    background-color: #007bff;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+#photo:hover {
+    border-radius: 50px;
+    border-color: black;
+    border: 5px;
+    
+}
